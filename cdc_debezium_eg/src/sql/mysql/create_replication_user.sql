@@ -1,0 +1,2 @@
+CREATE USER 'snowflakerep'@'localhost' IDENTIFIED BY '@Pass';
+GRANT SELECT, RELOAD, SHOW DATABASES, REPLICATION SLAVE, REPLICATION CLIENT ON *.* TO 'snowflakerep'@'localhost';

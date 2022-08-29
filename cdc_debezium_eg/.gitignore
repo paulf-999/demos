@@ -1,0 +1,4 @@
+bin/zookeeper/
+bin/kafka/
+tmp/
+rsa_key.*

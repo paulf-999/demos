@@ -1,0 +1,7 @@
+{
+    "Parameters" : {
+        "eg_airflow_var" : "airflow-variables",
+        "airflow_version" : "2.1.1",
+        "ssh_key_secret" : "airflow-ssh-git-secret"
+    }
+}

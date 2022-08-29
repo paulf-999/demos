@@ -1,0 +1,1 @@
+create database snowflake_source;

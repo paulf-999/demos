@@ -1,0 +1,14 @@
+{
+    "Parameters" : {
+        "program" : "BIKESTORES",
+        "snowsql_query" : "snowsql -c ${sf_conn_profile} -o friendly=false -o header=false -o timing=false",
+        "bootstrap_version" : 1.2,
+        "snowsql_version" : "${bootstrap_version}.9",
+        "snowsql_installer_path" : "https://sfc-repo.snowflakecomputing.com/snowsql/bootstrap/${bootstrap_version}/darwin_x86_64/snowsql-${snowsql_version}-darwin_x86_64.pkg",
+        "SnowflakeParams" : {
+            "sf_acc_name" : "${sf_acc_name_dbt_demo}",
+            "sf_username" : "${sf_username_dbt_demo}",
+            "sf_pass" : "${sf_pass_dbt_demo}"
+        }
+    }
+}

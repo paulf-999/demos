@@ -1,0 +1,1 @@
+show global variables where Variable_name='log_bin';
