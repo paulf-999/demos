@@ -1,3 +1,0 @@
-UPDATE BIKE_SHOP_SRC_DB.SALES.STAFFS
-SET FIRST_NAME = 'Joe', LAST_NAME = 'Bloggs', LOAD_TS = current_timestamp()
-WHERE STAFF_ID = 1;
